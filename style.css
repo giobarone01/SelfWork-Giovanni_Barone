@@ -31,3 +31,7 @@ header {
 .container {
     max-width: 100%; /* Imposta la larghezza massima per riempire la pagina */
 }
+
+.custom-card{
+    background-color: rgba(128, 128, 128, 0.628);
+}
