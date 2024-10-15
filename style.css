@@ -1,3 +1,7 @@
+body{
+    background-color: black;
+}
+
 .navbar-brand img {
     width: 180px;
     height: auto;
@@ -6,4 +10,24 @@
 header {
     background-color: black;
     color: rgb(232, 232, 232);
+}
+
+.custom-carousel {
+    height: 100%; /* Imposta l'altezza del carosello */
+    padding: 0;
+    margin: 0;
+}
+
+.custom-carousel img {
+    width: 100%; /* Riempie tutta la larghezza */
+    height: 100%; /* Riempie tutta l'altezza */
+    object-fit: cover; /* Impedisce distorsione delle immagini */
+}
+
+.carousel-text {
+    color: white; /* Testo bianco per contrasto con il fondo nero */
+}
+
+.container {
+    max-width: 100%; /* Imposta la larghezza massima per riempire la pagina */
 }
