@@ -1,0 +1,9 @@
+.navbar-brand img {
+    width: 180px;
+    height: auto;
+}
+
+header {
+    background-color: black;
+    color: rgb(232, 232, 232);
+}
